@@ -1,12 +1,15 @@
 import Nav from "./components/Nav.jsx"
 import "./index.css"
 import Landing from "./components/Landing.jsx"
+import Highlights from "./components/Highlights.jsx";
 
 function App() {
   return (
     <div className="App">
    <Nav />
    <Landing />
+   <Highlights />
+   <Featured />
     </div>
   );
 }
